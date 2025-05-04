@@ -8,7 +8,7 @@ const productData: ProductProps[] = [
     id: '1',
     name: 'Bracelet with Blue Butterfly Charm',
     price: 199,
-    image: src="public/lovable-uploads/WhatsApp Image 2025-02-01 at 3.50.59 PM.jpeg",
+    image: 'public/lovable-uploads/WhatsApp Image 2025-02-01 at 3.50.59 PM.jpeg',
     category: 'Jewelry',
     description: 'A delicate handcrafted bracelet featuring shimmering glass beads in shades of blue, purple, and black, accented with a charming blue enamel butterfly.',
     bestSeller: true
@@ -25,7 +25,7 @@ const productData: ProductProps[] = [
     id: '3',
     name: 'Heart necklace',
     price: 149,
-    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.43.33_08e936f3.jpg',
+    image: '/lovable-uploads/WhatsApp Image 2025-05-04 at 16.43.33_08e936f3.jpg',
     category: 'Jewelry',
     description: 'Stunning bracelet with blue, purple, and black beads featuring butterfly charm'
   },
@@ -33,7 +33,7 @@ const productData: ProductProps[] = [
     id: '4',
     name: 'Beeds bracelets',
     price: 129,
-    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.11_eab12eb0.jpg',
+    image: '/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.11_eab12eb0.jpg',
     category: 'Keychains',
     description: 'Stunning bracelet with blue, purple, and black beads',
     bestSeller: true
