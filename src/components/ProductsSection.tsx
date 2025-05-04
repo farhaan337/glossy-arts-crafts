@@ -36,7 +36,7 @@ const productData: ProductProps[] = [
     id: '4',
     name: 'Beeds bracelets',
     price: 129,
-    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.11_eab12eb0.jpg',
+    image: 'src/components/WhatsApp Image 2025-05-04 at 16.44.11_eab12eb0.jpg',
     category: 'Keychains',
     description: 'Stunning bracelet with blue, purple, and black beads',
     bestSeller: true
