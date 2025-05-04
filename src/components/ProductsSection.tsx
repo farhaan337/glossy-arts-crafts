@@ -6,61 +6,69 @@ import { Button } from '@/components/ui/button';
 const productData: ProductProps[] = [
   {
     id: '1',
-    name: 'Ocean Wave Keychain',
-    price: 12.99,
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
-    category: 'Keychains',
+    name: 'Ocean Wave Coaster',
+    price: 19.99,
+    image: '/lovable-uploads/3f57dd72-8c54-4039-9793-8f384cd9884c.png',
+    category: 'Coasters',
+    description: 'Beautiful blue ocean-themed coaster with seashells and star embellishments',
     bestSeller: true
   },
   {
     id: '2',
-    name: 'Galaxy Coaster Set',
+    name: 'Flower Pressed Coaster',
     price: 24.99,
-    image: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901',
-    category: 'Coasters'
+    image: '/lovable-uploads/d04d3c02-42e8-4ce1-9845-62e1d6033a3c.png',
+    category: 'Coasters',
+    description: 'Vibrant blue coaster with real preserved flowers and decorative gold stars'
   },
   {
     id: '3',
-    name: 'Flower Pendant Necklace',
-    price: 18.50,
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
-    category: 'Jewelry'
+    name: 'Galaxy Bracelet',
+    price: 15.50,
+    image: '/lovable-uploads/13ddd683-7937-4f71-b7be-3c3f6c0d669a.png',
+    category: 'Jewelry',
+    description: 'Stunning bracelet with blue, purple, and black beads featuring butterfly charm'
   },
   {
     id: '4',
-    name: 'Crystal Clear Bookmark',
-    price: 9.99,
-    image: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901',
-    category: 'Bookmarks'
-  },
-  {
-    id: '5',
-    name: 'Rainbow Heart Keychain',
-    price: 14.99,
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
+    name: 'Love Quote Heart Keychain',
+    price: 12.99,
+    image: '/lovable-uploads/82a527de-55c9-49ce-88dc-54aa9b49a600.png',
     category: 'Keychains',
+    description: 'Red heart-shaped keychain with inspirational love quote and glitter accents',
     bestSeller: true
   },
   {
+    id: '5',
+    name: 'Custom Text Keychain',
+    price: 14.99,
+    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
+    category: 'Keychains',
+    description: 'Personalized keychain with your choice of text and color'
+  },
+  {
     id: '6',
-    name: 'Mandala Trinket Tray',
+    name: 'Zodiac Trinket Tray',
     price: 29.99,
     image: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901',
-    category: 'Home Decor'
+    category: 'Home Decor',
+    description: 'Custom zodiac-themed trinket tray perfect for jewelry or small items'
   },
   {
     id: '7',
-    name: 'Geometric Phone Grip',
-    price: 15.99,
+    name: 'Crystal Pendant Necklace',
+    price: 18.99,
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
-    category: 'Accessories'
+    category: 'Jewelry',
+    description: 'Elegant crystal pendant with adjustable chain'
   },
   {
     id: '8',
-    name: 'Zodiac Sign Keychain',
-    price: 13.50,
+    name: 'Name Initial Bookmark',
+    price: 9.50,
     image: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901',
-    category: 'Keychains'
+    category: 'Bookmarks',
+    description: 'Personalized bookmark with your initial and favorite color'
   }
 ];
 

@@ -43,6 +43,9 @@ const ProductCard = ({ product }: { product: ProductProps }) => {
           <div>
             <p className="text-sm text-teal-500 font-medium">{product.category}</p>
             <h3 className="font-medium text-lg mt-1">{product.name}</h3>
+            {product.description && (
+              <p className="text-sm text-gray-500 mt-1 line-clamp-2">{product.description}</p>
+            )}
           </div>
           <p className="font-serif font-semibold text-lg">${product.price.toFixed(2)}</p>
         </div>
