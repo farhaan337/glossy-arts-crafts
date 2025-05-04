@@ -10,12 +10,12 @@ const productData: ProductProps[] = [
     price: 199,
     image: 'public/lovable-uploads/WhatsApp Image 2025-02-01 at 3.50.59 PM.jpeg',
     category: 'Coasters',
-    description: 'Beautiful blue ocean-themed coaster with seashells and star embellishments',
+    description: 'A delicate handcrafted bracelet featuring shimmering glass beads in shades of blue, purple, and black, accented with a charming blue enamel butterfly.',
     bestSeller: true
   },
   {
     id: '2',
-    name: 'Flower Pressed Coaster',
+    name: 'Ocean-Themed Resin Art',
     price: 249,
     image: '/lovable-uploads/d04d3c02-42e8-4ce1-9845-62e1d6033a3c.png',
     category: 'Coasters',
