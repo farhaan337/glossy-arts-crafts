@@ -1,18 +1,12 @@
-
 import { Heart } from "lucide-react";
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
-  return (
-    <footer className="bg-white border-t border-gray-200">
+  return <footer className="bg-white border-t border-gray-200">
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-4">
-              <span className="font-serif text-2xl font-bold bg-gradient-to-r from-teal-400 to-craft-purple bg-clip-text text-transparent">
-                Resin Wonders
-              </span>
+              <span className="font-serif text-2xl font-bold bg-gradient-to-r from-teal-400 to-craft-purple bg-clip-text text-transparent">Glossy Arts And Crafts</span>
             </a>
             <p className="text-gray-600 mb-4 max-w-md">
               Handcrafted resin creations that bring color and joy to your everyday life. Each piece uniquely made with love and attention to detail.
@@ -66,8 +60,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
