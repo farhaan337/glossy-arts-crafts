@@ -10,7 +10,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f4cd83b4-57f3-4b01-ba11-6b0fcad0c17b) and start prompting.
+Simply visit the [Lovable Project](https://gloosy-arts-crafts3.lovable.app/) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
