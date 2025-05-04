@@ -8,7 +8,7 @@ const productData: ProductProps[] = [
     id: '1',
     name: 'Bracelet with Blue Butterfly Charm',
     price: 199,
-    image: '/lovable-uploads/3f57dd72-8c54-4039-9793-8f384cd9884c.png',
+    image: 'https://github.com/farhaan337/resin-charm-boutique/blob/main/src/WhatsApp%20Image%202025-02-01%20at%203.06.38%20PM.jpeg',
     category: 'Coasters',
     description: 'Beautiful blue ocean-themed coaster with seashells and star embellishments',
     bestSeller: true
