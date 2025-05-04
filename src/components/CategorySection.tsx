@@ -18,13 +18,6 @@ const categories = [
     color: 'from-craft-purple to-purple-500',
   },
   {
-    id: 'home-decor',
-    title: 'Home Decor',
-    description: 'Beautiful decor items to enhance your living space.',
-    icon: Home,
-    color: 'from-craft-gold to-amber-500',
-  },
-  {
     id: 'custom',
     title: 'Custom Orders',
     description: 'Create your own unique resin piece with our custom service.',
