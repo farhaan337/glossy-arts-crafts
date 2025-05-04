@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 const productData: ProductProps[] = [
   {
     id: '1',
-    name: 'Ocean Wave Coaster',
+    name: 'Bracelet with Blue Butterfly Charm',
     price: 199,
     image: '/lovable-uploads/3f57dd72-8c54-4039-9793-8f384cd9884c.png',
     category: 'Coasters',
