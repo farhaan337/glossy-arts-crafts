@@ -9,7 +9,7 @@ const productData: ProductProps[] = [
     name: 'Bracelet with Blue Butterfly Charm',
     price: 199,
     image: 'public/lovable-uploads/WhatsApp Image 2025-02-01 at 3.50.59 PM.jpeg',
-    category: 'Coasters',
+    category: 'Jewelry',
     description: 'A delicate handcrafted bracelet featuring shimmering glass beads in shades of blue, purple, and black, accented with a charming blue enamel butterfly.',
     bestSeller: true
   },
