@@ -1,33 +1,34 @@
-
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Mail, MessageSquare, Phone, Instagram } from "lucide-react";
-
 const ContactSection = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: '',
+    message: ''
   });
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
+    const {
+      name,
+      value
+    } = e.target;
     setFormData(prevData => ({
       ...prevData,
       [name]: value
     }));
   };
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
     // Here you would typically send the data to your backend
     alert('Thank you for your message! We will get back to you soon.');
-    setFormData({ name: '', email: '', message: '' });
+    setFormData({
+      name: '',
+      email: '',
+      message: ''
+    });
   };
-
-  return (
-    <section id="contact" className="py-20 bg-craft-cream/50">
+  return <section id="contact" className="py-20 bg-craft-cream/50">
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-serif font-bold">
@@ -49,48 +50,21 @@ const ContactSection = () => {
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
                   Name
                 </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-teal-500 focus:border-teal-500"
-                  required
-                />
+                <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-teal-500 focus:border-teal-500" required />
               </div>
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
                   Email
                 </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-teal-500 focus:border-teal-500"
-                  required
-                />
+                <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-teal-500 focus:border-teal-500" required />
               </div>
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
                   Message
                 </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  rows={4}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-teal-500 focus:border-teal-500"
-                  required
-                ></textarea>
+                <textarea id="message" name="message" value={formData.message} onChange={handleChange} rows={4} className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-teal-500 focus:border-teal-500" required></textarea>
               </div>
-              <Button 
-                type="submit"
-                className="w-full bg-teal-500 hover:bg-teal-600 text-white"
-              >
+              <Button type="submit" className="w-full bg-teal-500 hover:bg-teal-600 text-white">
                 Send Message
               </Button>
             </form>
@@ -106,7 +80,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-gray-600">hello@resinwonders.com</p>
+                    <p className="text-gray-600"></p>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -115,7 +89,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-gray-600">(555) 123-4567</p>
+                    <p className="text-gray-600">+91 73055 87959</p>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -138,18 +112,13 @@ const ContactSection = () => {
               <p className="mb-6">
                 Looking for something unique? We love creating custom pieces tailored to your preferences!
               </p>
-              <Button
-                variant="secondary"
-                className="bg-white text-teal-700 hover:bg-teal-50"
-              >
+              <Button variant="secondary" className="bg-white text-teal-700 hover:bg-teal-50">
                 Request Custom Order
               </Button>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactSection;
