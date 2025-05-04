@@ -64,9 +64,9 @@ const productData: ProductProps[] = [
   },
   {
     id: '8',
-    name: 'Name Initial Bookmark',
+    name: 'Heart Resin',
     price: 99,
-    image: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901',
+    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.12_6f6ccbab.jpg',
     category: 'Bookmarks',
     description: 'Personalized bookmark with your initial and favorite color'
   }
