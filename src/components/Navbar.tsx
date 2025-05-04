@@ -1,23 +1,18 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { ShoppingCart, Menu, X } from "lucide-react";
 import { useNavigate } from 'react-router-dom';
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [cartCount, setCartCount] = useState(0);
   const navigate = useNavigate();
-  
   const toggleMenu = () => setIsOpen(!isOpen);
-  
-  return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+  return <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="container-custom py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <a href="/" className="flex items-center">
-              <span className="font-serif bg-gradient-to-r from-teal-400 to-craft-purple bg-clip-text text-transparent font-extrabold text-2xl">Resin Wonders</span>
+              <span className="font-serif bg-gradient-to-r from-teal-400 to-craft-purple bg-clip-text text-transparent font-extrabold text-2xl">Glossy Arts And Crafts</span>
             </a>
           </div>
 
@@ -68,8 +63,6 @@ const Navbar = () => {
             </a>
           </div>
         </div>}
-    </header>
-  );
+    </header>;
 };
-
 export default Navbar;
