@@ -52,7 +52,7 @@ const productData: ProductProps[] = [
     price: 299,
     image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.43.57_0c9b3850.jpg',
     category: 'Home Decor',
-    description: 'Custom zodiac-themed trinket tray perfect for jewelry or small items'
+    description: 'Custom zodiac-themed trinket tray perfect for bowl or small items'
   },
   {
     id: '7',
@@ -67,8 +67,8 @@ const productData: ProductProps[] = [
     name: 'Heart Resin',
     price: 99,
     image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.12_6f6ccbab.jpg',
-    category: 'Bookmarks',
-    description: 'Personalized bookmark with your initial and favorite color'
+    category: 'Home Decor',
+    description: 'Personalized Heart Resin with your initial and favorite color'
   }
 ];
 
