@@ -17,7 +17,7 @@ const productData: ProductProps[] = [
     id: '2',
     name: 'Ocean-Themed Resin Art',
     price: 249,
-    image: '/lovable-uploads/d04d3c02-42e8-4ce1-9845-62e1d6033a3c.png',
+    image: 'public/lovable-uploads/WhatsApp Image 2025-02-01 at 3.06.55 PM.jpeg',
     category: 'Coasters',
     description: 'Vibrant blue coaster with real preserved flowers and decorative gold stars'
   },
