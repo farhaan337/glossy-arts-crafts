@@ -7,7 +7,7 @@ const productData: ProductProps[] = [
     id: '1',
     name: 'Bracelet with Blue Butterfly Charm',
     price: 199,
-    image: '/lovable-uploads/WhatsApp Image 2025-02-01 at 3.50.59 PM.jpeg',
+    image: 'public/lovable-uploads/WhatsApp Image 2025-02-01 at 3.50.59 PM.jpeg',
     category: 'Jewelry',
     description: 'A delicate handcrafted bracelet featuring shimmering glass beads in shades of blue, purple, and black, accented with a charming blue enamel butterfly.',
     bestSeller: true
@@ -16,7 +16,7 @@ const productData: ProductProps[] = [
     id: '2',
     name: 'Ocean-Themed Resin Art',
     price: 249,
-    image: 'src/components/WhatsApp Image 2025-02-01 at 3.06.55 PM.jpeg',
+    image: 'public/lovable-uploads/WhatsApp Image 2025-02-01 at 3.06.55 PM.jpeg',
     category: 'Coasters',
     description: 'Vibrant blue coaster with real preserved flowers and decorative gold stars'
   },
@@ -24,7 +24,7 @@ const productData: ProductProps[] = [
     id: '3',
     name: 'Heart necklace',
     price: 149,
-    image: '/lovable-uploads/WhatsApp Image 2025-05-04 at 16.43.33_08e936f3.jpg',
+    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.43.33_08e936f3.jpg',
     category: 'Jewelry',
     description: 'Stunning bracelet with blue, purple, and black beads featuring butterfly charm'
   },
@@ -32,7 +32,7 @@ const productData: ProductProps[] = [
     id: '4',
     name: 'Beeds bracelets',
     price: 129,
-    image: '/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.11_eab12eb0.jpg',
+    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.11_eab12eb0.jpg',
     category: 'Keychains',
     description: 'Stunning bracelet with blue, purple, and black beads',
     bestSeller: true
@@ -41,7 +41,7 @@ const productData: ProductProps[] = [
     id: '5',
     name: 'Custom Text Keychain',
     price: 139,
-    image: '/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.15_165f8c05.jpg',
+    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.15_165f8c05.jpg',
     category: 'Keychains',
     description: 'Personalized keychain with your choice of text and color'
   },
@@ -49,7 +49,7 @@ const productData: ProductProps[] = [
     id: '6',
     name: 'Resin Bowl',
     price: 299,
-    image: '/lovable-uploads/WhatsApp Image 2025-05-04 at 16.43.57_0c9b3850.jpg',
+    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.43.57_0c9b3850.jpg',
     category: 'Home Decor',
     description: 'Custom zodiac-themed trinket tray perfect for bowl or small items'
   },
@@ -65,7 +65,7 @@ const productData: ProductProps[] = [
     id: '8',
     name: 'Heart Resin',
     price: 99,
-    image: '/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.12_6f6ccbab.jpg',
+    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.12_6f6ccbab.jpg',
     category: 'Home Decor',
     description: 'Personalized Heart Resin with your initial and favorite color'
   }
