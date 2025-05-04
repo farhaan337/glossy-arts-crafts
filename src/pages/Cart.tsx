@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Trash, ArrowLeft, ShoppingCart } from 'lucide-react';
+import { Trash, ArrowLeft, ShoppingCart, IndianRupee } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -11,14 +11,14 @@ const initialCartItems = [
   {
     id: '1',
     name: 'Ocean Wave Keychain',
-    price: 12.99,
+    price: 129,
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     quantity: 2
   },
   {
     id: '5',
     name: 'Rainbow Heart Keychain',
-    price: 14.99,
+    price: 139,
     image: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901',
     quantity: 1
   }
@@ -42,7 +42,7 @@ const Cart = () => {
   };
   
   const subtotal = cartItems.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-  const shipping = 5.99;
+  const shipping = 49;
   const total = subtotal + shipping;
 
   return (
@@ -102,7 +102,9 @@ const Cart = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="col-span-2 text-center">${item.price.toFixed(2)}</div>
+                      <div className="col-span-2 text-center flex items-center justify-center">
+                        <IndianRupee className="h-3 w-3 mr-1" />{item.price.toFixed(0)}
+                      </div>
                       <div className="col-span-2 text-center">
                         <div className="flex items-center justify-center">
                           <button 
@@ -116,8 +118,8 @@ const Cart = () => {
                           >+</button>
                         </div>
                       </div>
-                      <div className="col-span-2 text-center font-medium">
-                        ${(item.price * item.quantity).toFixed(2)}
+                      <div className="col-span-2 text-center font-medium flex items-center justify-center">
+                        <IndianRupee className="h-3 w-3 mr-1" />{(item.price * item.quantity).toFixed(0)}
                       </div>
                     </div>
                   </div>
@@ -131,17 +133,17 @@ const Cart = () => {
                 <div className="space-y-3 mb-4">
                   <div className="flex justify-between">
                     <span className="text-gray-600">Subtotal</span>
-                    <span>${subtotal.toFixed(2)}</span>
+                    <span className="flex items-center"><IndianRupee className="h-3 w-3 mr-1" />{subtotal.toFixed(0)}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Shipping</span>
-                    <span>${shipping.toFixed(2)}</span>
+                    <span className="flex items-center"><IndianRupee className="h-3 w-3 mr-1" />{shipping.toFixed(0)}</span>
                   </div>
                 </div>
                 <div className="border-t border-gray-300 pt-3 mb-6">
                   <div className="flex justify-between font-medium">
                     <span>Total</span>
-                    <span>${total.toFixed(2)}</span>
+                    <span className="flex items-center"><IndianRupee className="h-3 w-3 mr-1" />{total.toFixed(0)}</span>
                   </div>
                 </div>
                 <Button className="w-full bg-teal-500 hover:bg-teal-600 text-white">

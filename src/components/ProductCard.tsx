@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
-import { ShoppingCart } from "lucide-react";
+import { ShoppingCart, IndianRupee } from "lucide-react";
 
 export interface ProductProps {
   id: string;
@@ -47,7 +47,9 @@ const ProductCard = ({ product }: { product: ProductProps }) => {
               <p className="text-sm text-gray-500 mt-1 line-clamp-2">{product.description}</p>
             )}
           </div>
-          <p className="font-serif font-semibold text-lg">${product.price.toFixed(2)}</p>
+          <p className="font-serif font-semibold text-lg flex items-center">
+            <IndianRupee className="h-3 w-3 mr-1" />{product.price.toFixed(0)}
+          </p>
         </div>
         
         <Button 

@@ -7,7 +7,7 @@ const productData: ProductProps[] = [
   {
     id: '1',
     name: 'Ocean Wave Coaster',
-    price: 19.99,
+    price: 199,
     image: '/lovable-uploads/3f57dd72-8c54-4039-9793-8f384cd9884c.png',
     category: 'Coasters',
     description: 'Beautiful blue ocean-themed coaster with seashells and star embellishments',
@@ -16,7 +16,7 @@ const productData: ProductProps[] = [
   {
     id: '2',
     name: 'Flower Pressed Coaster',
-    price: 24.99,
+    price: 249,
     image: '/lovable-uploads/d04d3c02-42e8-4ce1-9845-62e1d6033a3c.png',
     category: 'Coasters',
     description: 'Vibrant blue coaster with real preserved flowers and decorative gold stars'
@@ -24,7 +24,7 @@ const productData: ProductProps[] = [
   {
     id: '3',
     name: 'Galaxy Bracelet',
-    price: 15.50,
+    price: 149,
     image: '/lovable-uploads/13ddd683-7937-4f71-b7be-3c3f6c0d669a.png',
     category: 'Jewelry',
     description: 'Stunning bracelet with blue, purple, and black beads featuring butterfly charm'
@@ -32,7 +32,7 @@ const productData: ProductProps[] = [
   {
     id: '4',
     name: 'Love Quote Heart Keychain',
-    price: 12.99,
+    price: 129,
     image: '/lovable-uploads/82a527de-55c9-49ce-88dc-54aa9b49a600.png',
     category: 'Keychains',
     description: 'Red heart-shaped keychain with inspirational love quote and glitter accents',
@@ -41,7 +41,7 @@ const productData: ProductProps[] = [
   {
     id: '5',
     name: 'Custom Text Keychain',
-    price: 14.99,
+    price: 139,
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     category: 'Keychains',
     description: 'Personalized keychain with your choice of text and color'
@@ -49,7 +49,7 @@ const productData: ProductProps[] = [
   {
     id: '6',
     name: 'Zodiac Trinket Tray',
-    price: 29.99,
+    price: 299,
     image: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901',
     category: 'Home Decor',
     description: 'Custom zodiac-themed trinket tray perfect for jewelry or small items'
@@ -57,7 +57,7 @@ const productData: ProductProps[] = [
   {
     id: '7',
     name: 'Crystal Pendant Necklace',
-    price: 18.99,
+    price: 179,
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     category: 'Jewelry',
     description: 'Elegant crystal pendant with adjustable chain'
@@ -65,7 +65,7 @@ const productData: ProductProps[] = [
   {
     id: '8',
     name: 'Name Initial Bookmark',
-    price: 9.50,
+    price: 99,
     image: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901',
     category: 'Bookmarks',
     description: 'Personalized bookmark with your initial and favorite color'
