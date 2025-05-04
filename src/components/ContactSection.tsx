@@ -98,7 +98,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Instagram</p>
-                    <p className="text-gray-600">@resinwonders</p>
+                    <p className="text-gray-600">@glossy_arts_crafts</p>
                   </div>
                 </div>
               </div>
