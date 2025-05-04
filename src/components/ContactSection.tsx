@@ -80,9 +80,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email
-
                   </p>
-                    <p className="text-gray-600"></p>
+                    <p className="text-gray-600">afzalmohamed098@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center">
