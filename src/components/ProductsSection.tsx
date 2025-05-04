@@ -42,7 +42,7 @@ const productData: ProductProps[] = [
     id: '5',
     name: 'Custom Text Keychain',
     price: 139,
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
+    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.15_165f8c05.jpg',
     category: 'Keychains',
     description: 'Personalized keychain with your choice of text and color'
   },
