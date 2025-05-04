@@ -2,7 +2,8 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/f4cd83b4-57f3-4b01-ba11-6b0fcad0c17b
+**URL**: 
+(https://gloosy-arts-crafts3.lovable.app/)
 
 ## How can I edit this code?
 
