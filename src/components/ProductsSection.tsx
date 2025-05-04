@@ -23,9 +23,9 @@ const productData: ProductProps[] = [
   },
   {
     id: '3',
-    name: 'Galaxy Bracelet',
+    name: 'Heart necklace',
     price: 149,
-    image: '/lovable-uploads/13ddd683-7937-4f71-b7be-3c3f6c0d669a.png',
+    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.43.33_08e936f3.jpg',
     category: 'Jewelry',
     description: 'Stunning bracelet with blue, purple, and black beads featuring butterfly charm'
   },
