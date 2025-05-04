@@ -69,7 +69,7 @@ const productData: ProductProps[] = [
     id: '8',
     name: 'Heart Resin',
     price: 99,
-    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.12_6f6ccbab.jpg',
+    image: 'src/components/WhatsApp Image 2025-05-04 at 16.44.12_6f6ccbab.jpg',
     category: 'Home Decor',
     description: 'Personalized Heart Resin with your initial and favorite color'
   }
