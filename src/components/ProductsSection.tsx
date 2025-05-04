@@ -61,7 +61,7 @@ const productData: ProductProps[] = [
     id: '7',
     name: 'Earring Resin ',
     price: 179,
-    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.15_a8cdc25a.jpg',
+    image: 'src/components/WhatsApp Image 2025-05-04 at 16.44.15_a8cdc25a.jpg',
     category: 'Jewelry',
     description: 'Elegant crystal resin with adjustable earring'
   },
