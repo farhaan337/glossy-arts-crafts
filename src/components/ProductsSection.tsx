@@ -56,11 +56,11 @@ const productData: ProductProps[] = [
   },
   {
     id: '7',
-    name: 'Crystal Pendant Necklace',
+    name: 'Earring Resin ',
     price: 179,
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
+    image: 'public/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.15_a8cdc25a.jpg',
     category: 'Jewelry',
-    description: 'Elegant crystal pendant with adjustable chain'
+    description: 'Elegant crystal resin with adjustable earring'
   },
   {
     id: '8',
