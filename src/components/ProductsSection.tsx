@@ -20,7 +20,7 @@ const productData: ProductProps[] = [
     id: '2',
     name: 'Ocean-Themed Resin Art',
     price: 249,
-    image: 'src/components/WhatsApp Image 2025-02-01 at 3.06.55 PM.jpeg',
+    image: '/lovable-uploads/WhatsApp Image 2025-02-01 at 3.06.55 PM.jpeg',
     category: 'Coasters',
     description: 'Vibrant blue coaster with real preserved flowers and decorative gold stars'
   },
@@ -45,7 +45,7 @@ const productData: ProductProps[] = [
     id: '5',
     name: 'Custom Text Keychain',
     price: 139,
-    image: 'src/components/WhatsApp Image 2025-05-04 at 16.44.15_38b906c9.jpg',
+    image: '/lovable-uploads/WhatsApp Image 2025-05-04 at 16.44.15_38b906c9.jpg',
     category: 'Keychains',
     description: 'Personalized keychain with your choice of text and color'
   },
