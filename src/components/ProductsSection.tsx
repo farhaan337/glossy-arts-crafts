@@ -1,4 +1,4 @@
-
+import { Check } from "lucide-react";
 import { useState } from 'react';
 import ProductCard, { ProductProps } from './ProductCard';
 import { Button } from "@/components/ui/button";
