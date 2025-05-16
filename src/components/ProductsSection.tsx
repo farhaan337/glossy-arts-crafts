@@ -27,7 +27,7 @@ const productData: ProductProps[] = [
     id: '3',
     name: 'Heart necklace',
     price: 149,
-    image: '/lovable-uploads/WhatsApp Image 2025-05-04 at 16.43.33_08e936f3.jpg',
+    image: '/lovable-uploads/WhatsApp_Image_2025-05-04_at_16.43.33_08e936f3.jpg',
     category: 'Jewelry',
     description: 'Stunning bracelet with blue, purple, and black beads featuring butterfly charm'
   },
