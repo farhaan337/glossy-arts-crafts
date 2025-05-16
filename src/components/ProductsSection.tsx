@@ -52,7 +52,7 @@ const productData: ProductProps[] = [
     id: '6',
     name: 'Resin Bowl',
     price: 299,
-    image: '/lovable-uploads/WhatsApp Image 2025-05-04 at 16.43.57_0c9b3850.jpg',
+    image: '/lovable-uploads/WhatsApp_Image_2025-05-04_at_16.43.57_0c9b3850.jpg',
     category: 'Home Decor',
     description: 'Custom zodiac-themed trinket tray perfect for bowl or small items'
   },
