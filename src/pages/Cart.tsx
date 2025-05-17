@@ -1,16 +1,21 @@
 
 import { Button } from '@/components/ui/button';
 import { Trash, ArrowLeft, ShoppingCart, IndianRupee } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { useCart } from '@/context/CartContext';
 
 const Cart = () => {
   const { cartItems, removeFromCart, updateQuantity, subtotal } = useCart();
+  const navigate = useNavigate();
   
   const shipping = 49;
   const total = subtotal + shipping;
+
+  const handleCheckout = () => {
+    navigate('/checkout');
+  };
 
   return (
     <>
@@ -113,7 +118,10 @@ const Cart = () => {
                     <span className="flex items-center"><IndianRupee className="h-3 w-3 mr-1" />{total.toFixed(0)}</span>
                   </div>
                 </div>
-                <Button className="w-full bg-teal-500 hover:bg-teal-600 text-white">
+                <Button 
+                  onClick={handleCheckout} 
+                  className="w-full bg-teal-500 hover:bg-teal-600 text-white"
+                >
                   Proceed to Checkout
                 </Button>
               </div>
