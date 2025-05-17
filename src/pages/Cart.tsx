@@ -1,47 +1,14 @@
 
-import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Trash, ArrowLeft, ShoppingCart, IndianRupee } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-
-// Mock cart data
-const initialCartItems = [
-  {
-    id: '1',
-    name: 'Ocean Wave Keychain',
-    price: 129,
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
-    quantity: 2
-  },
-  {
-    id: '5',
-    name: 'Rainbow Heart Keychain',
-    price: 139,
-    image: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901',
-    quantity: 1
-  }
-];
+import { useCart } from '@/context/CartContext';
 
 const Cart = () => {
-  const [cartItems, setCartItems] = useState(initialCartItems);
+  const { cartItems, removeFromCart, updateQuantity, subtotal } = useCart();
   
-  const updateQuantity = (id: string, newQuantity: number) => {
-    if (newQuantity < 1) return;
-    
-    setCartItems(items => 
-      items.map(item => 
-        item.id === id ? { ...item, quantity: newQuantity } : item
-      )
-    );
-  };
-  
-  const removeItem = (id: string) => {
-    setCartItems(items => items.filter(item => item.id !== id));
-  };
-  
-  const subtotal = cartItems.reduce((sum, item) => sum + (item.price * item.quantity), 0);
   const shipping = 49;
   const total = subtotal + shipping;
 
@@ -94,7 +61,7 @@ const Cart = () => {
                           <div className="ml-3">
                             <p className="font-medium">{item.name}</p>
                             <button 
-                              onClick={() => removeItem(item.id)} 
+                              onClick={() => removeFromCart(item.id)} 
                               className="flex items-center text-sm text-red-500 mt-1 hover:text-red-600"
                             >
                               <Trash className="h-3 w-3 mr-1" /> Remove

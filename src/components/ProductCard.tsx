@@ -1,6 +1,9 @@
+
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { ShoppingCart, IndianRupee } from "lucide-react";
+import { useCart } from '@/context/CartContext';
+
 export interface ProductProps {
   id: string;
   name: string;
@@ -10,20 +13,35 @@ export interface ProductProps {
   description?: string;
   bestSeller?: boolean;
 }
+
 const ProductCard = ({
   product
 }: {
   product: ProductProps;
 }) => {
   const [isHovered, setIsHovered] = useState(false);
-  return <div className="product-card" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+  const { addToCart } = useCart();
+  
+  return (
+    <div 
+      className="product-card" 
+      onMouseEnter={() => setIsHovered(true)} 
+      onMouseLeave={() => setIsHovered(false)}
+    >
       <div className="relative aspect-square overflow-hidden">
-        <img src={product.image} alt={product.name} style={{
-        transform: isHovered ? 'scale(1.05)' : 'scale(1)'
-      }} className="w-full h-full transition-transform duration-300 ease-in-out object-cover" />
-        {product.bestSeller && <div className="absolute top-2 left-2 bg-craft-gold text-white text-xs font-bold px-2 py-1 rounded-md">
+        <img 
+          src={product.image} 
+          alt={product.name} 
+          style={{
+            transform: isHovered ? 'scale(1.05)' : 'scale(1)'
+          }} 
+          className="w-full h-full transition-transform duration-300 ease-in-out object-cover" 
+        />
+        {product.bestSeller && (
+          <div className="absolute top-2 left-2 bg-craft-gold text-white text-xs font-bold px-2 py-1 rounded-md">
             BEST SELLER
-          </div>}
+          </div>
+        )}
       </div>
       
       <div className="p-4">
@@ -38,10 +56,16 @@ const ProductCard = ({
           </p>
         </div>
         
-        <Button className="w-full mt-4 bg-teal-500 hover:bg-teal-600 gap-2" size="sm">
+        <Button 
+          className="w-full mt-4 bg-teal-500 hover:bg-teal-600 gap-2" 
+          size="sm"
+          onClick={() => addToCart(product)}
+        >
           <ShoppingCart className="h-4 w-4" /> Add to Cart
         </Button>
       </div>
-    </div>;
+    </div>
+  );
 };
+
 export default ProductCard;
